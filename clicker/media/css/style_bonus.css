@@ -1,0 +1,344 @@
+#bonuses {
+	position: fixed;
+	display: none;
+	top: 17%;
+	left: 23%;
+	width: 30%;
+	height: 46%;
+	background: rgb(0,0,0,0.2);
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+.open {
+	box-shadow: inset 0px 0px 20px green;
+	cursor: pointer;
+}
+
+.close {
+	box-shadow: inset 0px 0px 20px red;
+	cursor: default;
+}
+
+.mig_green {
+	box-shadow: inset 0px 0px 0px green;
+	animation: mig_green 0.5s linear infinite;
+}
+@keyframes mig_green {
+	0% {box-shadow: inset 0px 0px 0px green}
+	50% {box-shadow: inset 0px 0px 20px green}
+	100% {box-shadow: inset 0px 0px 0px green}
+}
+
+#close_bonuses {
+	position: fixed;
+	display: none;
+	top: 18%;
+	left: 51%;
+	width: 1.2%;
+	height: 3%;
+	padding-left: 0.3%;
+	border: 1px solid black;
+	border-radius: 5px;
+	background: rgb(255,0,0,0.2);
+	cursor: pointer;
+	text-shadow: 0px 0px 5px white;
+	z-index: 1;
+}
+
+#back_to_bonuses {
+	position: fixed;
+	display: none;
+	top: 18%;
+	left: 23.5%;
+	width: 1.2%;
+	height: 3%;
+	padding-left: 0.3%;
+	border: 1px solid black;
+	border-radius: 5px;
+	background: rgb(255,0,0,0.2);
+	cursor: pointer;
+	text-shadow: 0px 0px 5px white;
+	z-index: 1;
+}
+/*--BRILLIANT--*/
+#bonus_brilliant {
+	position: fixed;
+	display: block;
+	top: 27%;
+	left: 25%;
+	width: 5%;
+	height: 10%;
+	border: 1px solid black;
+	border-radius: 5px;
+	background-image: url("../images/brilliant.png");
+	background-size: 100%;
+	cursor: pointer;
+}
+
+#bonus_brilliant_window {
+	position: fixed;
+	display: none;
+	top: 17%;
+	left: 23%;
+	width: 30%;
+	height: 46%;
+	background: rgb(0,0,0,0.2);
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+#bonus_brilliant_day {
+	position: fixed;
+	display: block;
+	top: 23%;
+	left: 23.5%;
+	width: 5%;
+	height: 10%;
+	border: 1px solid black;
+	border-radius: 5px;
+	background-image: url("../images/brilliant.png");
+	background-size: 100%;
+	text-align: center;
+}
+
+#bonus_day_update {
+	position: fixed;
+	display: block;
+	top: 35%;
+	left: 23.5%;
+	width: 5%;
+	height: 10%;
+	border: 1px solid black;
+	border-radius: 5px;
+	background-image: url("../images/brilliant.png");
+	background-size: 100%;
+	text-align: center;
+}
+
+#bonus_time {
+	position: fixed;
+	display: block;
+	top: 27%;
+	left: 32%;
+	width: 5%;
+	height: 10%;
+	border: 1px solid black;
+	border-radius: 5px;
+	background-size: 100%;
+	cursor: pointer;
+}
+
+#bonus_offline {
+	position: fixed;
+	display: block;
+	top: 27%;
+	left: 39%;
+	width: 5%;
+	height: 10%;
+	border: 1px solid black;
+	border-radius: 5px;
+	background-size: 100%;
+	cursor: pointer;
+}
+
+#bonus_dealer {
+	position: fixed;
+	display: block;
+	top: 42%;
+	left: 25%;
+	width: 5%;
+	height: 10%;
+	border: 1px solid black;
+	border-radius: 5px;
+	background-image: url("../images/dealer.jpg");
+	background-size: 100%;
+	cursor: pointer;
+}
+
+#bonus_worker {
+	position: fixed;
+	display: block;
+	top: 42%;
+	left: 32%;
+	width: 5%;
+	height: 10%;
+	border: 1px solid black;
+	border-radius: 5px;
+	background-image: url("../images/worker.jpg");
+	background-size: 100%;
+	cursor: pointer;
+}
+
+/*--UCHER--*/
+#bonus_ucher {
+	position: fixed;
+	display: block;
+	top: 42%;
+	left: 39%;
+	width: 5%;
+	height: 10%;
+	border: 1px solid black;
+	border-radius: 5px;
+	background-image: url("../images/ucher.jpg");
+	background-size: 100%;
+	cursor: pointer;
+}
+
+#speed_timer {
+	display: block;
+	position: absolute;
+	top: 39%;
+	left: 36%;
+	color: white;
+	text-shadow: 0px 0px 5px white;
+	z-index: 2;
+}
+
+#bonus_ucher_window {
+	position: fixed;
+	display: none;
+	top: 17%;
+	left: 23%;
+	width: 30%;
+	height: 46%;
+	background: rgb(0,0,0,0.2);
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+.desc {
+	position: fixed;
+	display: block;
+	left: 29%;
+	width: 7.5%;
+	height: 10%;
+}
+
+.desc_2 {
+	position: fixed;
+	display: block;
+	left: 45%;
+	width: 7.5%;
+	height: 10%;
+}
+
+#bonus_ucher_timer {
+	position: fixed;
+	display: block;
+	top: 54%;
+	left: 34%;
+	width: 10%;
+	height: 8%;
+	color: green;
+}
+
+#bonus_ucher_15min {
+	position: fixed;
+	display: block;
+	top: 23%;
+	left: 23.5%;
+	width: 5%;
+	height: 10%;
+	border: 1px solid black;
+	border-radius: 5px;
+	background-image: url("../images/brilliant.png");
+	background-size: 100%;
+	text-align: center;
+}
+
+#bonus_ucher_30min {
+	position: fixed;
+	display: block;
+	top: 35%;
+	left: 23.5%;
+	width: 5%;
+	height: 10%;
+	border: 1px solid black;
+	border-radius: 5px;
+	background-image: url("../images/brilliant.png");
+	background-size: 100%;
+	text-align: center;
+}
+
+#bonus_ucher_1hour {
+	position: fixed;
+	display: block;
+	top: 47%;
+	left: 23.5%;
+	width: 5%;
+	height: 10%;
+	border: 1px solid black;
+	border-radius: 5px;
+	background-image: url("../images/brilliant.png");
+	background-size: 100%;
+	text-align: center;
+}
+
+#bonus_ucher_6hour {
+	position: fixed;
+	display: block;
+	top: 23%;
+	left: 39.5%;
+	width: 5%;
+	height: 10%;
+	border: 1px solid black;
+	border-radius: 5px;
+	background-image: url("../images/brilliant.png");
+	background-size: 100%;
+	text-align: center;
+}
+
+#bonus_ucher_1day {
+	position: fixed;
+	display: block;
+	top: 35%;
+	left: 39.5%;
+	width: 5%;
+	height: 10%;
+	border: 1px solid black;
+	border-radius: 5px;
+	background-image: url("../images/brilliant.png");
+	background-size: 100%;
+	text-align: center;
+}
+
+#update_bonus_ucher {
+	position: fixed;
+	display: block;
+	top: 47%;
+	left: 39.5%;
+	width: 5%;
+	height: 10%;
+	border: 1px solid black;
+	border-radius: 5px;
+	background-image: url("../images/brilliant.png");
+	background-size: 100%;
+	text-align: center;
+}
+
+#bonus_other {
+	position: fixed;
+	display: block;
+	top: 27%;
+	left: 46%;
+	width: 5%;
+	height: 10%;
+	border: 1px solid black;
+	border-radius: 5px;
+	background-size: 100%;
+	cursor: pointer;
+}
+
+#bonus_other_2 {
+	position: fixed;
+	display: block;
+	top: 42%;
+	left: 46%;
+	width: 5%;
+	height: 10%;
+	border: 1px solid black;
+	border-radius: 5px;
+	background-size: 100%;
+	cursor: pointer;
+}

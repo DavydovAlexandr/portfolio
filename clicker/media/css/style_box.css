@@ -1,0 +1,352 @@
+b, h1, h2, h6, #timer, #unvisible, .object_box, #trend, #close_bonus, #back_to_bonuses, #close_bonuses,.desc,.desc_2, #first_enter_text {
+	user-select: none;
+}
+
+h1, h5,b {
+	text-shadow: 0px 0px 5px white;
+}
+
+.box, #cost_dealer {
+	cursor: pointer;
+}
+
+#dealers, #workers, #uchers {
+	display: block;
+}
+
+.trend_perem{
+	position: absolute;
+	top: -38%;
+	left: 2%;
+}
+
+/*---------------------------------------------TIMER-----------------------------------------*/
+
+#unvisible {
+	display: block;
+	position: absolute;
+	left: 1%;
+	width: 17.1%;
+	height: 10.2%;
+	border: 1px solid black;
+	border-radius: 5px;
+	background: blue;
+	opacity: 0.7;
+	z-index: 1;
+}
+
+#timer {
+	display: block;
+	position: absolute;
+	top: -10%;
+	color: white;
+	z-index: 2;
+}
+
+/*---------------------------------------------BOXES-----------------------------------------*/
+.box {
+	position: fixed;
+	width: 5%;
+	height: 10%;
+	border: 1px solid black;
+	
+}
+
+.object_box {
+	display: block;
+	position: absolute;
+	margin-top: 7.5%;
+	margin-left: 0.5%;
+	width: 5%;
+	height: 10%;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+section {
+	display: none;
+}
+#forest_section, #wood_sword_section{
+	display: block;
+}
+
+.level_object {
+	display: block;
+	position: absolute;
+	height: 3%;
+	margin-left: 6.2%;
+	border: 1px solid black;
+	border-radius: 5px;
+	background: gold;
+	user-select: none;
+}
+
+.next_level_object {
+	display: block;
+	position: absolute;
+	height: 3%;
+	margin-left: 6.2%;
+	border: 1px solid black;
+	border-radius: 5px;
+	background: green;
+	cursor: pointer;
+	user-select: none;
+}
+
+.next_level_object_2 {
+	display: none;
+	position: absolute;
+	height: 3%;
+	margin-left: 6.2%;
+	border: 1px solid black;
+	border-radius: 5px;
+	background: red;
+	cursor: default;
+	user-select: none;
+}
+
+.deal_object {
+	display: none;
+	position: absolute;
+	height: 3%;
+	left: 15%;
+	border: 1px solid black;
+	border-radius: 5px;
+	background-image: url("../images/dealer.jpg");
+	background-size: 20px;
+	background-repeat: no-repeat;
+	background-color: rgb(0,255,0,0.5);
+	cursor: pointer;
+	user-select: none;
+}
+
+.deal_object_2 {
+	display: block;
+	position: absolute;
+	height: 3%;
+	left: 15%;
+	border: 1px solid black;
+	border-radius: 5px;
+	background-image: url("../images/dealer.jpg");
+	background-size: 20px;
+	background-repeat: no-repeat;
+	background-color: rgb(255,0,0,0.5);
+	cursor: default;
+	user-select: none;
+}
+
+.deal_object_minus {
+	display: none;
+	position: absolute;
+	height: 3%;
+	width: 0.8%;
+	left: 20%;
+	border: 1px solid black;
+	border-radius: 5px;
+	background: gold;
+}
+
+.work_object {
+	display: none;
+	position: absolute;
+	height: 3%;
+	left: 15%;
+	border: 1px solid black;
+	border-radius: 5px;
+	background-image: url("../images/worker.jpg");
+	background-size: 20px;
+	background-repeat: no-repeat;
+	background-color: rgb(0,255,0,0.5);
+	cursor: pointer;
+	user-select: none;
+}
+
+.work_object_2 {
+	display: block;
+	position: absolute;
+	height: 3%;
+	left: 15%;
+	border: 1px solid black;
+	border-radius: 5px;
+	background-image: url("../images/worker.jpg");
+	background-size: 20px;
+	background-repeat: no-repeat;
+	background-color: rgb(255,0,0,0.5);
+	cursor: default;
+	user-select: none;
+}
+
+.work_object_minus {
+	display: none;
+	position: absolute;
+	height: 3%;
+	width: 0.8%;
+	left: 20%;
+	border: 1px solid black;
+	border-radius: 5px;
+	background: gold;
+}
+
+.object {
+	position: absolute;
+	height: 3%;
+	margin-left: 6.2%;
+	margin-right: 2%;
+	border: 1px solid black;
+	border-radius: 5px;
+	background: gold;
+	user-select: none;
+	cursor: pointer;
+}
+
+/*---------------------------------------------DEALERS---------------------------------------*/
+
+#box_dealer {
+	position: fixed;
+	top: 17%;
+	right: 1%;
+	width: 5%;
+	height: 10%;
+	border: 1px solid black;
+	border-radius: 5px;
+	background-image: url("../images/dealer.jpg");
+	background-size: 100%;
+}
+
+#col_dealers {
+	position: fixed;
+	height: 3%;
+	top: 17%;
+	right: 6.2%;
+	border: 1px solid black;
+	border-radius: 5px;
+	background: gold;
+	user-select: none;
+}
+
+#cost_dealer {
+	display: none;
+	position: fixed;
+	height: 3%;
+	top: 20.5%;
+	right: 6.2%;
+	border: 1px solid black;
+	border-radius: 5px;
+	background: green;
+	cursor: pointer;
+	user-select: none;
+}
+
+#cost_dealer_2 {
+	display: block;
+	position: fixed;
+	height: 3%;
+	top: 20.5%;
+	right: 6.2%;
+	border: 1px solid black;
+	border-radius: 5px;
+	background: red;
+	cursor: default;
+	user-select: none;
+}
+
+/*---------------------------------------------WORKERS---------------------------------------*/
+#box_worker {
+	position: fixed;
+	top: 29%;
+	right: 1%;
+	width: 5%;
+	height: 10%;
+	border: 1px solid black;
+	border-radius: 5px;
+	background-image: url("../images/worker.jpg");
+	background-size: 100%;
+}
+
+#col_workers {
+	position: fixed;
+	height: 3%;
+	top: 29%;
+	right: 6.2%;
+	border: 1px solid black;
+	border-radius: 5px;
+	background: gold;
+	user-select: none;
+}
+
+#cost_worker {
+	display: none;
+	position: fixed;
+	height: 3%;
+	top: 32.5%;
+	right: 6.2%;
+	border: 1px solid black;
+	border-radius: 5px;
+	background: green;
+	cursor: pointer;
+	user-select: none;
+}
+
+#cost_worker_2 {
+	display: block;
+	position: fixed;
+	height: 3%;
+	top: 32.5%;
+	right: 6.2%;
+	border: 1px solid black;
+	border-radius: 5px;
+	background: red;
+	cursor: default;
+	user-select: none;
+}
+
+/*---------------------------------------------UCHERS---------------------------------------*/
+
+#box_ucher {
+	position: fixed;
+	top: 41%;
+	right: 1%;
+	width: 5%;
+	height: 10%;
+	border: 1px solid black;
+	border-radius: 5px;
+	background-image: url("../images/ucher.jpg");
+	background-size: 100%;
+}
+
+#col_uchers {
+	position: fixed;
+	height: 3%;
+	top: 41%;
+	right: 6.2%;
+	border: 1px solid black;
+	border-radius: 5px;
+	background: gold;
+	user-select: none;
+}
+
+#cost_ucher {
+	display: none;
+	position: fixed;
+	height: 3%;
+	top: 44.5%;
+	right: 6.2%;
+	border: 1px solid black;
+	border-radius: 5px;
+	background: green;
+	cursor: pointer;
+	user-select: none;
+}
+
+#cost_ucher_2 {
+	display: block;
+	position: fixed;
+	height: 3%;
+	top: 44.5%;
+	right: 6.2%;
+	border: 1px solid black;
+	border-radius: 5px;
+	background: red;
+	cursor: default;
+	user-select: none;
+}
